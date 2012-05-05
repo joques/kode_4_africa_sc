@@ -1,0 +1,14 @@
+$theme: '.ace.k4a';
+
+body {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+}
+
+$theme.button {
+    background-color: blue;
+		-webkit-border-radius: 4px;
+		-moz-border-radius: 4px;
+		border-radius: 4px;
+    border-bottom-color: #7F93E5;
+}
