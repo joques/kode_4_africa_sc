@@ -29,7 +29,7 @@ K4a.mainPage = SC.Page.design({
 					right: 10,
 					zIndex: 100
 				},
-
+				controlSize: SC.HUGE_CONTROL_SIZE,
 				title: 'Log In',
 				action: 'login'
 			})
@@ -66,12 +66,13 @@ K4a.mainPage = SC.Page.design({
 			submit_button: SC.ButtonView.design({
 				layout: {
 					// centerY: 0,
-					height: 40,
+					height: 30,
 					width: 120,
 					right: 10,
 					bottom: 5,
 					zIndex: 100
 				},
+				controlSize: SC.HUGE_CONTROL_SIZE,
 				title: 'Submit Project',
 				action: 'submit_project'
 			})
